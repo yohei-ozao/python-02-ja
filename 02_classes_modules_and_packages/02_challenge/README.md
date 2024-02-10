@@ -1,25 +1,25 @@
-# Challenge 2
-Create an automotive sales system.
+# チャレンジ2
+自動車販売システムの作成
 
-## Part 1
-- Define a Vehicle Class
-  - Create a `Vehicle` class in a separate module. Attributes should include model, make, year, price, and discount. Include methods for setting and getting these attributes.
-- Vehicle Inventory
-  - Create an `Inventory` class that maintains a collection of `Vehicle` instances. Implement methods to add vehicles and retrieve vehicles based on various criteria (e.g., make, year, price range).
-- Discount Application
-  - Implement a method in the `Inventory` class to apply discounts to vehicles. Try to make use of list comprehensions, lambdas, and/or decorators for dynamic discount criteria (e.g., 5% off on all SUVs).
-- Search Functionality
-  - Add a method to search for vehicles by model using regular expressions. This method should return a list of vehicles matching the search pattern.
-- Iterating Over Vehicles
-  - Implement a generator in the `Inventory` class that allows iteration over all vehicles, yielding one vehicle at a time.
+## パート1
+- Vehicleクラスの定義
+  - 独立したモジュールに `Vehicle` クラスを作成します。属性として、車種 (model)、メーカー (make)、年式 (year)、価格 (price)、割引額 (discount) を用意します。これらの属性を設定するメソッドと取得するメソッドも用意します。
+- 車両の在庫
+  - `Vehicle` インスタンスのコレクションを管理する `Inventory` クラスを作成します。さまざまな条件 （車種、年式、価格帯など） にもとづいて、車両を追加したり取得したりするメソッドを実装します。
+- 割引の適用
+  - 車両に割引を適用するメソッドを `Inventory` クラスに実装します。リスト内包表記、ラムダ関数、デコレーターを使用して、動的な割引基準に対応します （例： SUV全車5%オフ）。
+- 検索機能
+  - 正規表現を使用して、車種で車両を検索するメソッドを追加します。このメソッドでは、検索パターンに一致する車両のリストを返してください。
+- 車両の反復
+  - `Inventory` クラスにジェネレータを実装し、すべての車両を反復処理して一度に1台の車両を引き渡すようにします。
 
-## Part 2
-- Parsing Vehicle Data
-  - Create a module to parse vehicle data from a text file (you can provide a sample file with vehicle details). Use string formatting and file handling to read and process this data.
-- Creating Vehicle Instances
-  - Use the parsed data to create instances of `Vehicle` and add them to the `Inventory`.
+## パート2
+- 車両データの解析
+  - テキストファイルから車両データを解析するモジュールを作成します (車両の詳細情報を記載したサンプルファイルを提供してください)。文字列整形とファイル操作を使用し、このデータを読み込んで処理します。
+- 車両インスタンスの作成
+  - 解析したデータを使用して `Vehicle` のインスタンスを作成し、それを `Inventory` に追加します。
 
-## Example
+## 例
 
 **vehicles.txt**
 ```

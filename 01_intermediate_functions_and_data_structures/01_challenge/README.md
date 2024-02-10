@@ -1,37 +1,37 @@
-# Challenge 1
-You have a text document containing various data points mixed with regular text. These data points are in the format DataPointName:Value. For example, Age:25, Height:180cm, Weight:70kg. The data points are scattered throughout the document amidst other unnecessary text.
+# チャレンジ1
+各種のデータと通常のテキストが混在しているテキストドキュメントがあります。データの形式は <データ名>:<値> です。たとえば、Age:25、Height:180cm、Weight:70kg のようになります。データはその他の不要なテキストに混ざってドキュメント中に散在しています。
 
-## Part 1
-Your task is to complete the `extract_data` function. You must use a regex pattern to extract all data points from the text.
+## パート1
+`extract_data` 関数を完成させてください。正規表現のパターンを使用して、テキストからすべてのデータを抽出する必要があります。
 
-- The regex pattern must identify the data point name followed by a colon and its value.
-- Values can be numbers, strings, or alphanumeric combinations.
+- 正規表現のパターンでは、データ名の後にコロンとその値を指定します。
+- 値は数字、文字列、英数字の組み合わせのいずれかです。
 
-### Example inputs and outputs
-Input:
+### 入力と出力の例
+入力:
 ```
-"The subject has Age:25 and Height:180cm. Other details are not relevant. Weight:70kg was noted."
+"The subject has Age:25 and Height:180cm.Other details are not relevant.Weight:70kg was noted."
 ```
 
-Output:
+出力:
 ```python
 ['Age:25', 'Height:180cm', 'Weight:70kg']
 ```
 
-## Part 2
-Your task is to complete the `better_extract_data` function.
+## パート2
+`better_extract_data` 関数を完成させてください。
 
-- The output must be a list of tuples, each containing the data point name and value as separate elements.
+- タプルのリストで結果を出力し、各タプルをデータ名と値で構成します。
 
-> Hint: You must make use of **capture groups**. Look this up on your own.
+> ヒント: **キャプチャグループ**を使用する必要があります。キャプチャグループについて調べてみてください。
 
-### Example inputs and outputs
-Input:
+### 入力と出力の例
+入力:
 ```
-"The subject has Age:25 and Height:180cm. Other details are not relevant. Weight:70kg was noted."
+"The subject has Age:25 and Height:180cm.Other details are not relevant.Weight:70kg was noted."
 ```
 
-Output:
+出力:
 ```python
 [("Age", "25"), ("Height", "180cm"), ("Weight", "70kg")]
 ```

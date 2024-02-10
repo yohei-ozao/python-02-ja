@@ -1,16 +1,16 @@
-# Challenge 1
-Create the beginnings of a polymorphic vehicle system using an abstract base class, inheritance, and polymorphism.
+# チャレンジ1
+抽象基底クラス、継承、ポリモーフィズムを使用して、ポリモーフィックな性質を備えた初歩的な車両システムを作成します。
 
-## Requirements
-- Define `Vehicle` as an abstract class with a concrete implementation of a `get_details()` method and an additional abstract method `start_engine()`.
-- Vehicles should have `make`, `model`, and `year` instance variables.
-- Create at least two classes that inherit from `Vehicle` including `Car` and `Truck`.
-- Implement the abstract method from `Vehicle` in each subclass and extend the `get_details()` method to include specific details for each vehicle type using `super`.
-- For `Truck`, include at least one additional attribute including `towing_capacity`.
-- Implement a `display_vehicle_details` function that can process objects of any type derived from `Vehicle`.
-- Adhere to SOLID principles, ensuring your classes are well-structured and maintainable.
+## 要件
+- `Vehicle` を抽象クラスとして定義し、`get_details()` 具象メソッドと `start_engine()` 抽象メソッドを追加します。
+- 車両には`make` (メーカー)、`model` (モデル)、`year` (年式) のインスタンス変数が必要です。
+- `Vehicle` を継承したクラスを2つ以上作成します (`Car`、`Truck`、その他のクラス)。
+- 各サブクラスで `Vehicle` の抽象メソッドを実装します。また、`super` を使用して `get_details()` メソッドを拡張し、各車両タイプの詳細情報を含めます。
+- `Truck` には、1つ以上の属性 (`towing_capacity`、その他の属性) を追加します。
+- `Vehicle` から派生した任意のタイプのオブジェクトを処理できる `display_vehicle_details` 関数を実装します。
+- SOLIDの原則を順守し、クラスを適切に構造化して容易に維持管理できるようにします。
 
-## Example code with expected outputs
+## コード例と想定される出力
 ```python
 ...
 

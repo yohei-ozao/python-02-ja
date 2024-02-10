@@ -1,7 +1,7 @@
-# Challenge 2
-You are given a Python script `event_scheduler.py` for an event scheduler. The script is supposed to take a list of event names and their start times, then schedule them and print the schedule. However, there are several bugs in the script, including logic errors and incorrect data handling.
+# チャレンジ2
+イベントスケジューラ用のPythonスクリプト `event_scheduler.py` があります。このスクリプトはイベント名と開始時刻のリストを受け取り、スケジュールを設定してその内容を出力します。ただし、このスクリプトには論理エラーや不適切なデータ処理など、いくつかのバグがあります。
 
-- Run the script and observe the output. It will not match the expected output.
-- Use `pdb` to step through the code and inspect variables.
-- Identify and fix the bugs in the script.
-- Ensure that the script works as intended.
+- スクリプトを実行して出力を確認します。これは想定される出力とは異なります。
+- `pdb` を使用してコードを1行ずつ実行し、変数を調べます。
+- スクリプトのバグを特定して修正します。
+- スクリプトが想定どおりに動作することを確認します。

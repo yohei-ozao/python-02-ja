@@ -1,19 +1,19 @@
-# Challenge 2
-Create a simplified banking system that demonstrates the use of Abstract Base Classes (ABCs). The system should allow for different types of bank accounts with unique functionalities.
+# チャレンジ2
+抽象基底クラス (ABC) を使用したシンプルなバンキングシステムを作成します。このシステムでは、複数の種類の銀行口座を扱い、各口座の種類に独自の機能があるものとします。
 
-## Requirements
-### Part 1
-- Create an ABC named `Account` with the following:
-  - Constructor: Initialize `account_number` and `balance`.
-  - Abstract methods: `can_withdraw(amount)`.
-  - Concrete methods: `deposit(amount)`, `withdraw(amount)`, `apply_interest()`, and `get_transaction_history()`.
-### Part 2
-- Create two subclasses: `SavingsAccount` and `CheckingAccount`.
-- Implement unique withdrawal rules and interest rates for each subclass.
-### Part 3
-Implement a banking system that allows for account operations and showcases polymorphism in action.
+## 要件
+### パート1
+- `Account` という名前の抽象基底クラスを次のように作成します。
+  - コンストラクタ: `account_number` と `balance` を初期化
+  - 抽象メソッド: `can_withdraw(amount)`
+  - 具象メソッド: `deposit(amount)`、`withdraw(amount)`、`apply_interest()`、`get_transaction_history()`
+### パート2
+- 2つのサブクラス `SavingsAccount` と `CheckingAccount` を作成します。
+- 各サブクラスでそれぞれの引き出しルールと金利を実装します。
+### パート3
+口座を操作するバンキングシステムを実装し、ポリモーフィズムの動作を実際に確認します。
 
-## Example Usage
+## 使用例
 ```python
 alice_savings = SavingsAccount("123456", 1000)
 bob_checking = CheckingAccount("987654", 500)

@@ -1,5 +1,5 @@
-# TODO
+# ここにコードを書いてください
 
 def get_vehicle_details(vehicle):
-    # TODO
+    # ここにコードを書いてください
     pass

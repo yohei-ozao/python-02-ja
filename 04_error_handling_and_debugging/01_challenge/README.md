@@ -1,29 +1,29 @@
-# Challenge 1
-You are given a function named `mystery_function`. This function is intended to take a list of integers and return a new list with each element squared, but only if the element is an even number. However, the function is currently not working as expected. Your task is to debug and fix the function.
+# チャレンジ1
+`mystery_function` という名前の関数があります。この関数は整数のリストを受け取り、各要素を2乗した新しいリストを返します。ただし、2乗するのは偶数の要素のみとします。現在、この関数は想定どおりに動作していません。この関数をデバッグして修正してください。
 
-- Identify and fix any logical errors in the function.
-- Ensure that the function adheres to the described behavior.
-- Test the function with various inputs to confirm it works correctly.
+- この関数の論理エラーを特定して修正します。
+- 関数が仕様どおりに動作することを確認します。
+- さまざまな入力で関数をテストし、適切に動作することを確認します。
 
-## Example inputs and outputs
-Input:
+## 入力と出力の例
+入力:
 ```
 [1, 2, 3, 4, 5]
 ```
 
-Output:
+出力:
 ```
 [1, 4, 3, 16, 5]
 ```
 
 ---
 
-Input 2:
+入力2:
 ```
 [4, 1, 6, 2, 10]
 ```
 
-Output 2:
+出力2:
 ```
 [16, 1, 36, 4, 100]
 ```
