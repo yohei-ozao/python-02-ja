@@ -1,20 +1,20 @@
-# Challenge 1
-Create a Python class `Library` to manage a personal book collection.
+# チャレンジ1
+個人の本のコレクションを管理するためのPythonクラス `Library` を作成してください。
 
-This class should allow adding books, removing books, and retrieving the current book collection.
+このクラスでは、本の追加、本の削除、現在の本のコレクションの取得ができるようにします。
 
-- Implement a Library class with methods to add books, remove books, and display books.
-- Use private attributes to store book information.
-- Ensure that removed books are handled gracefully.
+- 本を追加、削除、表示するためのメソッドを備えた `Library` クラスを実装します。
+- プライベートの属性を使用して本の情報を格納します。
+- 削除した本が適切に処理されるようにします。
 
-## Requirements
-- **Class Name**: `Library`
-- **Interface**:
-    - `add_book(title, author)`: Adds a new book.
-    - `remove_book(title)`: Removes a book by title.
-    - `retrieve_books()`: Returns a list of all books in the library.
+## 要件
+- **クラス名**: `Library`
+- **インターフェイス**:
+    - `add_book(title, author)`: 新しい本を追加します。
+    - `remove_book(title)`: タイトルで指定した本を削除します。
+    - `retrieve_books()`: ライブラリ内のすべての本のリストを返します。
 
-## Example Usage
+## 使用例
 
 ```python
 my_library = Library()
